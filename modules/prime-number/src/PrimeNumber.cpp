@@ -8,7 +8,6 @@ bool isPrimeNumber(int num);
 
 
 int PrimeNumber(int input) {
-
     int count = 0;
     int num = 0;
 
@@ -25,14 +24,11 @@ int PrimeNumber(int input) {
 }
 
 bool isPrimeNumber(int num) {
-
     if (num < 2) return false;
     for (int i = 2; i <= sqrt(num); i++) {
-
        if (num % i == 0) {
             return false;
        }
     }
-
     return true;
 }
