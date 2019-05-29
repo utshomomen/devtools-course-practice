@@ -15,7 +15,7 @@ int main() {
     if(n <= 0) {
         cout << "Invalid input" << endl;
     }else {
-        cout << n << "the prime number is " << PrimeNumber(n) << endl;
+        cout << n << "th prime number is " << PrimeNumber(n) << endl;
     }
 
     return 0;
