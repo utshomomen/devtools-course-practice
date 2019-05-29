@@ -1,8 +1,8 @@
 // Copyright 2019 by Utsho Momen
 
-#ifndef _PRIMENUMBER_H
-#define _PRIMENUMBER_H
+#ifndef MODULES_PRIME_NUMBER_INCLUDE_PRIMENUMBER_H_
+#define MODULES_PRIME_NUMBER_INCLUDE_PRIMENUMBER_H_
 
 int PrimeNumber(int n);
 
-#endif
+#endif // MODULES_PRIME_NUMBER_INCLUDE_PRIMENUMBER_H_
