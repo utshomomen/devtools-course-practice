@@ -5,4 +5,5 @@
 
 int PrimeNumber(int n);
 
+
 #endif // MODULES_PRIME_NUMBER_INCLUDE_PRIMENUMBER_H_
