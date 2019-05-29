@@ -1,9 +1,8 @@
 // Copyright 2019 by Utsho Momen
 
 #include "gtest/gtest.h"
-#include <iostream>
-#include "include/PrimeNumber.h"
 
+#include "include/PrimeNumber.h"
 
 TEST(UtshoMomenTest, test_eq) {
     EXPECT_EQ(3, 3);
