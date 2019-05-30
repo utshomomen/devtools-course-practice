@@ -3,16 +3,15 @@
 #include <iostream>
 
 #include "include/PrimeNumber.h"
-using namespace std;
 
 int main() {
     int n;
-    cout << "Please enter number for which prime number to find : ";
-    cin >> n;
+    std::cout << "Please enter number for which prime number to find : ";
+    std::cin >> n;
     if (n <= 0) {
-        cout << "Invalid input" << endl;
+        std::cout << "Invalid input" << std::endl;
     } else {
-        cout << n << "the prime number is " << PrimeNumber(n) << endl;
+        std::cout << n << "the prime number is " << PrimeNumber(n) << std::endl;
     }
     return 0;
 }
