@@ -1,7 +1,7 @@
 // Copyright 2019 Asyanin Mikhail
 
-#ifndef PM_LINKEDLIST_H
-#define PM_LINKEDLIST_H
+#ifndef MODULES_LINKED_LIST_INCLUDE_LINKEDLIST_H_
+#define MODULES_LINKED_LIST_INCLUDE_LINKEDLIST_H_
 
 #include <string>
 #include <iostream>
@@ -178,4 +178,4 @@ inline bool LinkedList<T>::deleteNode(Node<T> *node) {
 }
 
 
-#endif //PM_LINKEDLIST_H
+#endif // MODULES_LINKED_LIST_INCLUDE_LINKEDLIST_H_
